@@ -1,27 +1,27 @@
 # GitLab parser for NPM Audit
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@codejedi365/gitlab-npm-audit-parser">
-    <img src="https://img.shields.io/npm/v/@codejedi365/gitlab-npm-audit-parser" />
+  <a href="https://www.npmjs.com/package/@dansholds/gitlab-npm-audit-parser">
+    <img src="https://img.shields.io/npm/v/@dansholds/gitlab-npm-audit-parser" />
   </a>
-  <img src="https://img.shields.io/npm/l/@codejedi365/gitlab-npm-audit-parser?color=yellow">
-  <a href="https://github.com/codejedi365/gitlab-npm-audit-parser/blob/main/CHANGELOG.md">
+  <img src="https://img.shields.io/npm/l/@dansholds/gitlab-npm-audit-parser?color=yellow">
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/blob/main/CHANGELOG.md">
     <img src="https://img.shields.io/badge/&#9741-changelog-yellow">
   </a>
-  <a href="https://github.com/codejedi365/gitlab-npm-audit-parser/actions/workflows/ci.yml">
-    <img src="https://github.com/codejedi365/gitlab-npm-audit-parser/actions/workflows/ci.yml/badge.svg" >
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/actions/workflows/ci.yml">
+    <img src="https://github.com/dansholds/gitlab-npm-audit-parser/actions/workflows/ci.yml/badge.svg" >
   </a>
-  <a href="https://github.com/codejedi365/gitlab-npm-audit-parser/issues">
-    <img src="https://img.shields.io/github/issues/codejedi365/gitlab-npm-audit-parser">
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/issues">
+    <img src="https://img.shields.io/github/issues/dansholds/gitlab-npm-audit-parser">
   </a>
   <img src="https://img.shields.io/badge/dependencies-0-success">
-  <img src="https://img.shields.io/snyk/vulnerabilities/npm/@codejedi365/gitlab-npm-audit-parser">
+  <img src="https://img.shields.io/snyk/vulnerabilities/npm/@dansholds/gitlab-npm-audit-parser">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/npm/dependency-version/@codejedi365/gitlab-npm-audit-parser/dev/webpack">
-  <img src="https://img.shields.io/node/v-lts/@codejedi365/gitlab-npm-audit-parser?color=blue">
-  <img src="https://img.shields.io/bundlephobia/min/@codejedi365/gitlab-npm-audit-parser" />
-  <img src="https://img.shields.io/github/last-commit/codejedi365/gitlab-npm-audit-parser">
+  <img src="https://img.shields.io/npm/dependency-version/@dansholds/gitlab-npm-audit-parser/dev/webpack">
+  <img src="https://img.shields.io/node/v-lts/@dansholds/gitlab-npm-audit-parser?color=blue">
+  <img src="https://img.shields.io/bundlephobia/min/@dansholds/gitlab-npm-audit-parser" />
+  <img src="https://img.shields.io/github/last-commit/dansholds/gitlab-npm-audit-parser">
 </p>
 
     Usage: gitlab-npm-audit-parser [options]
@@ -87,10 +87,10 @@ specific pipeline and not necessary to be locally installed for developer use._
 
 ```sh
 # 1. Downloads at runtime use
-npm audit --json | npx @codejedi365/gitlab-npm-audit-parser -o gl-dependency-scanning.json
+npm audit --json | npx @dansholds/gitlab-npm-audit-parser -o gl-dependency-scanning.json
 
 # 2. Install in devDependencies
-npm install --save-dev @codejedi365/gitlab-npm-audit-parser
+npm install --save-dev @dansholds/gitlab-npm-audit-parser
 ```
 
 Add the following job to `.gitlab-ci.yml`. If you used #2 and it is in your
@@ -101,7 +101,7 @@ dependency scanning:
   image: node:10-alpine
   script:
     - npm ci
-    - npm audit --json | npx @codejedi365/gitlab-npm-audit-parser -o
+    - npm audit --json | npx @dansholds/gitlab-npm-audit-parser -o
       gl-dependency-scanning.json
   artifacts:
     reports:
@@ -170,9 +170,9 @@ npm run build-watch
 ## Extras
 
 **COMING SOON!**
-[gitlab-depscan-merger](https://github.com/codejedi365/gitlab-depscan-merger): a
+[gitlab-depscan-merger](https://github.com/dansholds/gitlab-depscan-merger): a
 solution to create 1 ingestable dependency_scanning report from multiple audit
 reports overcoming the GitLab pipeline limitation.
 
-Check out my other projects at [@codejedi365](https://github.com/codejedi365) on
+Check out my other projects at [@dansholds](https://github.com/dansholds) on
 GitHub.com

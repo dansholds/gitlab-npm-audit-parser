@@ -1,6 +1,6 @@
 {
-  "name": "@codejedi365/gitlab-npm-audit-parser",
-  "version": "2.0.0",
+  "name": "@dansholds/gitlab-npm-audit-parser",
+  "version": "1.0.0",
   "description": "NPM Audit parser for GitLab dependency scanning",
   "bin": "dist/parse.js",
   "main": "dist/parse.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:codejedi365/gitlab-npm-audit-parser.git"
+    "url": "git@github.com:dansholds/gitlab-npm-audit-parser.git"
   },
   "keywords": [
     "gitlab",
@@ -35,7 +35,7 @@
     "vulnerabilities",
     "report",
     "json",
-    "codejedi365",
+    "dansholds",
     "convert"
   ],
   "author": "Maxime Gibeau",
@@ -46,9 +46,9 @@
       "url": "https://github.com/elpete"
     },
     {
-      "name": "codejedi365",
-      "email": "codejedi365@gmail.com",
-      "url": "https://github.com/codejedi365"
+      "name": "dansholds",
+      "email": "dansholds@gmail.com",
+      "url": "https://github.com/dansholds"
     }
   ],
   "engines": {
