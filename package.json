@@ -1,6 +1,6 @@
 {
-  "name": "@dansholds/gitlab-npm-audit-parser",
-  "version": "1.0.0",
+  "name": "@dshbuilds/gitlab-npm-audit-parser",
+  "version": "1.0.1",
   "description": "NPM Audit parser for GitLab dependency scanning",
   "bin": "dist/parse.js",
   "main": "dist/parse.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dansholds/gitlab-npm-audit-parser.git"
+    "url": "git@github.com:dshbuilds/gitlab-npm-audit-parser.git"
   },
   "keywords": [
     "gitlab",
@@ -35,7 +35,7 @@
     "vulnerabilities",
     "report",
     "json",
-    "dansholds",
+    "dshbuilds",
     "convert"
   ],
   "author": "Maxime Gibeau",
@@ -46,9 +46,9 @@
       "url": "https://github.com/elpete"
     },
     {
-      "name": "dansholds",
-      "email": "dansholds@gmail.com",
-      "url": "https://github.com/dansholds"
+      "name": "dshbuilds",
+      "email": "dshbuilds@gmail.com",
+      "url": "https://github.com/dshbuilds"
     }
   ],
   "engines": {
