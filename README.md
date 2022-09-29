@@ -5,14 +5,14 @@
     <img src="https://img.shields.io/npm/v/@dshbuilds/gitlab-npm-audit-parser" />
   </a>
   <img src="https://img.shields.io/npm/l/@dshbuilds/gitlab-npm-audit-parser?color=yellow">
-  <a href="https://github.com/dshbuilds/gitlab-npm-audit-parser/blob/main/CHANGELOG.md">
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/blob/main/CHANGELOG.md">
     <img src="https://img.shields.io/badge/&#9741-changelog-yellow">
   </a>
-  <a href="https://github.com/dshbuilds/gitlab-npm-audit-parser/actions/workflows/ci.yml">
-    <img src="https://github.com/dshbuilds/gitlab-npm-audit-parser/actions/workflows/ci.yml/badge.svg" >
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/actions/workflows/ci.yml">
+    <img src="https://github.com/dansholds/gitlab-npm-audit-parser/actions/workflows/ci.yml/badge.svg" >
   </a>
-  <a href="https://github.com/dshbuilds/gitlab-npm-audit-parser/issues">
-    <img src="https://img.shields.io/github/issues/dshbuilds/gitlab-npm-audit-parser">
+  <a href="https://github.com/dansholds/gitlab-npm-audit-parser/issues">
+    <img src="https://img.shields.io/github/issues/dansholds/gitlab-npm-audit-parser">
   </a>
   <img src="https://img.shields.io/badge/dependencies-0-success">
   <img src="https://img.shields.io/snyk/vulnerabilities/npm/@dshbuilds/gitlab-npm-audit-parser">
@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/npm/dependency-version/@dshbuilds/gitlab-npm-audit-parser/dev/webpack">
   <img src="https://img.shields.io/node/v-lts/@dshbuilds/gitlab-npm-audit-parser?color=blue">
   <img src="https://img.shields.io/bundlephobia/min/@dshbuilds/gitlab-npm-audit-parser" />
-  <img src="https://img.shields.io/github/last-commit/dshbuilds/gitlab-npm-audit-parser">
+  <img src="https://img.shields.io/github/last-commit/dansholds/gitlab-npm-audit-parser">
 </p>
 
     Usage: gitlab-npm-audit-parser [options]
